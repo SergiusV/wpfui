@@ -284,7 +284,7 @@
                 x:Name="PaneGrid"
                 Grid.Column="0"
                 Width="{TemplateBinding OpenPaneLength}"
-                Margin="4,0">
+                Margin="4,4, -1, 0">
                 <Border x:Name="PaneBorder">
                     <Grid>
                         <Grid.RowDefinitions>
@@ -409,8 +409,8 @@
                 Margin="{TemplateBinding FrameMargin}"
                 Background="{DynamicResource NavigationViewContentBackground}"
                 BorderBrush="{DynamicResource NavigationViewContentGridBorderBrush}"
-                BorderThickness="1,1,0,0"
-                CornerRadius="8,0,0,0">
+                BorderThickness="12"
+                CornerRadius="0">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
